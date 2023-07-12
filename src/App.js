@@ -1,15 +1,21 @@
-
-import './App.css';
-import Navbar from './components/Navbar';
-import logo from "./components/assets/logo.png"
-import styles from './components/style.css';
+import { Fragment } from "react";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import styles from "./components/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/footer";
+import VehicleDetails from "./components/VehicleDetails";
+import Charges from "./components/charges";
+import Passenger from "./components/Passenger";
 
 function App() {
   return (
-  
     <>
-<Navbar />
+      <Navbar />
+      <VehicleDetails />
+      <Charges />
+      <Passenger />
+      <Footer />
     </>
   );
 }

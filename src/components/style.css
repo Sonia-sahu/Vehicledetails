@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald");
 @import url("https://fonts.googleapis.com/css?family=Open Sans");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
 
 #navbarNav {
   font: normal normal 600 25px/30px Oswald;
@@ -8,7 +9,7 @@
 .navbar {
   top: 0px;
   left: 0px;
-  height: 100px;
+  height: 80px;
   background: 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   opacity: 1;
@@ -22,17 +23,16 @@
   background: transparent url("assets/logo.png") 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-.nav-item{
-    padding: 23px;
+.nav-item {
+  padding: 23px;
 }
 .nav-link {
   top: 32px;
-  
+
   justify-content: space-evenly;
 }
-.vehicle{
-    padding: 50px;
-    box-sizing: border-box;
+.vehicle {
+  padding: 60px;
 }
 .title {
   top: 231px;
@@ -42,23 +42,273 @@
   letter-spacing: 0px;
   font-weight: bold;
   color: #000000;
+  padding: 20px;
 }
-.card-group{
-  top: 327px;
-  height: 101px;
-  background: #e3e3e3 0% 0% no-repeat padding-box;
-  border-radius: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
-   padding: 1rem;
-
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  height: 100px;
+  background: #e3e3e3;
 }
-.card-body2{
-
-}
-.detail{
-    background-color: #e3e3e3;
-padding: 60px;
-font-size: 35px;
+.row {
+  margin: 0 -5px;
 }
 
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 25px;
+  }
+}
+p {
+  background: #e3e3e3;
+  font-family: Open Sans;
+  font-weight: 1000;
+  font-size: 20px;
+}
+
+.heading {
+  top: 1042px;
+  left: 100px;
+  text-align: left;
+  font: normal normal bold 45px/61px Open Sans;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: #000000;
+  padding: 20px;
+}
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  height: 100px;
+  background: #e3e3e3;
+}
+
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  height: 100px;
+  background: #e3e3e3;
+}
+.column7 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  height: 100px;
+  background: #e3e3e3;
+}
+.column8 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  height: 100px;
+  background: #e3e3e3;
+}
+.column6 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  height: 100px;
+  background: #e3e3e3;
+}
+@media screen and (max-width: 600px) {
+  .column2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 25px;
+  }
+}
+.charges {
+  padding: 60px;
+  padding-bottom: 20px;
+}
+.card {
+  background-color: #e3e3e3;
+  display: grid;
+  width: 80%;
+}
+.passDetails {
+  left: 100px;
+  text-align: left;
+  font: normal normal bold 45px/61px Open Sans;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: #000000;
+  padding: 20px;
+}
+.Passenger {
+  padding: 60px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+.column3 {
+  height: 80vh;
+  padding-top: 20px;
+  float: left;
+  width: 32%;
+  padding: 0 10px;
+  height: 350px;
+  background: #e3e3e3;
+}
+.column4 {
+  float: left;
+  width: 32%;
+  padding: 0 10px;
+  height: 350px;
+  background: #e3e3e3;
+}
+.column5 {
+  float: left;
+  width: 32%;
+  padding: 0 10px;
+  height: 350px;
+  background: #e3e3e3;
+}
+
+input[type="text"] {
+  width: 33vh;
+  padding: 12px 20px;
+  margin: 8px 0;
+  height: 40px;
+  box-sizing: border-box;
+}
+label {
+  font-weight: bolder;
+  font-family: Open Sans;
+  font-size: 20px;
+  text-align: left;
+}
+.form-group {
+  padding: 20px 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.column9 {
+  align-items: center;
+  width: 96%;
+  padding: 0 10px;
+  height: 40px;
+  padding-bottom: 0px;
+  background: #e3e3e3;
+}
+
+.btn1 {
+  border-radius: 25px;
+  border: 1px solid #0000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* 
+footer */
+footer {
+  display: inline-block;
+}
+.footer-1 {
+  justify-content: center;
+  text-align: center;
+  width: auto;
+}
+
+footer .main-footer {
+  clear: both;
+  padding: 20px;
+  /* height: auto; */
+  background: #e3e3e3;
+  min-height: 350px;
+}
+
+footer ul {
+  padding-left: 115px;
+  padding-top: 23px;
+  list-style: none;
+}
+
+.widget .thumbnail-widget {
+  margin-top: 40px;
+}
+
+/* Footer transparent */
+footer.transparent .footer-top,
+footer.transparent .main-footer {
+  background: transparent;
+}
+
+/* Footer light */
+footer.light .footer-top {
+  background: #f9f9f9;
+}
+footer.light .main-footer {
+  background: #f9f9f9;
+}
+
+.footer-1 .container {
+  display: flex;
+}
+
+/* Footer 4 */
+.footer- .logo {
+  display: inline-block;
+}
+
+.widget li a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.widget li a:hover {
+  color: #aaa;
+  text-decoration: none;
+}
+.widget-title {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: var(--greyish-black);
+  color: #fff;
+}
+
+input.submitbutton.ripplelink {
+  background: var(--greyish-black);
+  /* border: 3px solid rgba(0, 0, 0, 0.1); */
+  color: #fff;
+  border-radius: 40px;
+  /* box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2); */
+  transition-delay: 0s;
+  width: 50%;
+  font-size: 14px;
+  /* font-weight: 700; */
+  border: 0px solid;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 10px 15px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+}
+
+.container .sub {
+  margin-top: 61px;
+  margin-left: 70px;
+}
+
+.container .subscribe p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.thumb-content,
+.container .sub p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+}
+
+.thumb-content {
+  line-height: 1.8rem;
+}
+
+.container .sub .upper-text {
+  font-size: 1.3rem;
+}

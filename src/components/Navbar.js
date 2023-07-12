@@ -1,9 +1,10 @@
 import React from "react";
 import "./style.css";
-import VehicleDetails from "./VehicleDetails";
 import logo from "./assets/logo.png"
+
 const Navbar = () => {
   return (
+    <>
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="#">
@@ -41,8 +42,11 @@ const Navbar = () => {
           </ul>
         </div>
       </nav>
-      <VehicleDetails />
-    </div>
+      </div>
+     
+      
+    
+    </>
   );
 };
 
