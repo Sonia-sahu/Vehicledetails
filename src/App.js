@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import react from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import styles from "./components/style.css";
@@ -15,7 +15,7 @@ function App() {
       <VehicleDetails />
       <Charges />
       <Passenger />
-      <Footer />
+      <Footer /> 
     </>
   );
 }
