@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald");
 @import url("https://fonts.googleapis.com/css?family=Open Sans");
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+/* navbar */
 *{
   margin: 0;
   padding: 0;
@@ -34,6 +35,7 @@
   top: 32px;
  justify-content: space-evenly;
 }
+/* vehicle details */
 .vehicle {
   padding: 60px;
 }
@@ -97,7 +99,7 @@ p {
     margin-bottom: 25px;
   }
 }
-
+/* charges */
 .column2 {
   float: left;
   width: 25%;
@@ -158,11 +160,9 @@ p {
   padding: 60px;
   padding-bottom: 20px;
 }
-/* .card {
-  background-color: #e3e3e3;
-  display: grid;
-  width: 80%;
-} */
+
+
+/* passenger details */
 .passDetails {
   left: 100px;
   text-align: left;
@@ -173,52 +173,6 @@ p {
   padding-left: 60px;
   margin-top: 60px;
   margin-bottom: 20px;
-}
-.Passenger {
-  text-align: left;
-}
-.column3 {
-  float:left;
-  width: 34%;
-  padding: 0 40px;
-  height: 48%;
-  background: #e3e3e3;
-}
-@media screen and (max-width: 500px) {
-  .column3 {
-    width: 100%;
-    display:block;
-    margin-bottom: 25px;
-  }
-}
-.column4 {
-  float: left;
-  width: 25%;
-  padding: 0 40px;
-   height: 48%; 
-  background: #e3e3e3;
-}
-@media screen and (max-width: 500px) {
-  .column4 {
-    width: 100%;
-    display:block;
-    margin-bottom: 25px;
-  }
-}
-.column5 {
-  float: left;
-  text-align: left;
-  width: 34%;
-  padding: 0 40px;
-   height: 34.5vh; 
-  background: #e3e3e3;
-}
-@media screen and (max-width: 500px) {
-  .column5 {
-    width: 100%;
-    display:block;
-    margin-bottom: 25px;
-  }
 }
 
 input[type="text"] {
@@ -262,7 +216,6 @@ padding: 60px;
   background:#e3e3e3;
   display: block;
   justify-content: space-around;
-  /* box-sizing: border-box; */
   margin-bottom: 6rem;
   padding-left: 20px;
   /* height:350px; */
@@ -281,11 +234,7 @@ label {
   font-size: 21px;
   text-align: left;
 }
-/* .form-group {
-  padding: 19px 30px 5px 3px;
-  margin-left: 25px;
-  margin-right: 20px;
-} */
+
 .btn-1 {
   border-radius: 25px;
   border: 2px solid #0000;
@@ -304,116 +253,7 @@ justify-content: center;
 align-items: center;
 padding-left: 65vh;
 }
-
-
-/* 
-footer */
-/* footer{
-    display:inline-block; 
-}
-.footer-1{
-
-justify-content:center;
-text-align: center;
- width: auto;}
-
-footer .main-footer {
-    clear: both;
-  padding: 20px;
-  /* height: auto; */
-  /* background:#e3e3e3;
-  min-height: 350px;
-}
-
-footer ul {
-  padding-left: 115px;
-  padding-top: 23px;
-  list-style: none;
-} */
-/* 
-.widget .thumbnail-widget {
-  margin-top: 40px;
-}
-
-/* Footer transparent */
-/* footer.transparent .footer-top,
-footer.transparent .main-footer {
-  background: transparent;
-} */
-
-/* Footer light */
-/* footer.light .footer-top {
-  background: #f9f9f9;
-}
-footer.light .main-footer {
-  background: #f9f9f9;
-}
-
-.footer-1 .container {
-  display: flex;
-} */
-
-/* Footer 4 */
-/* .footer- .logo {
-  display: inline-block;
-}
-
-.widget li a {
-  color: var(--secondary-color);
-  text-decoration: none;
-}
-.widget li a:hover {
-  color: #aaa;
-  text-decoration: none;
-}
-.widget-title {
-  margin-bottom: 20px;
-}
-
-.btn {
-  background-color: var(--greyish-black);
-  color: #fff;
-}
-
-input.submitbutton.ripplelink {
-  background: var(--greyish-black);  */
-  /* border: 3px solid rgba(0, 0, 0, 0.1); */
-  /* color: #fff;
-  border-radius: 40px; */
-  /* box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2); */
-  /* transition-delay: 0s;
-  width: 50%;
-  font-size: 14px; */
-  /* font-weight: 700; */
-  /* border: 0px solid;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 10px 15px;
-  margin-bottom: 16px;
-  border-radius: 5px;
-}
-
-.container .sub {
-  margin-top: 61px;
-  margin-left: 70px;
-}
-
- .container .subscribe p {
-    font-family: 'Nunito Sans', sans-serif;
-} 
-
- .thumb-content,
-.container .sub p {
-    font-family: 'Nunito Sans', sans-serif;
-  font-weight:bold;
-} 
-
-.thumb-content {
-  line-height: 1.8rem;
-}
-
-.container .sub .upper-text {
-  font-size: 1.3rem;
-}  */
+/* footer css */
 footer {
 	background:#e3e3e3;
 	padding: 40px 0;
@@ -465,10 +305,7 @@ footer {
 	font-size: 20px;
 	font-weight: 700;
 }
-/* #basic-addon2 {
-	background: var(--btn-background);
-	color: var(--primary-color);
-} */
+
 .single-box .single-box-content{
   padding-top: 69px;
 }
