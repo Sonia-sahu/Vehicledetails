@@ -222,7 +222,7 @@ p {
 }
 
 input[type="text"] {
-  width: 29vh;
+  width: 32vh;
   padding: 10px 20px;
   margin: 8px 0;
   height: 38px;
@@ -230,7 +230,7 @@ input[type="text"] {
 
 }
 input[type="time"] {
-  width: 29vh;
+  width: 32vh;
   padding: 10px 20px;
   margin: 8px 0;
   height: 38px;
@@ -238,20 +238,47 @@ input[type="time"] {
 
 }
 input[type="date"] {
-  width: 29vh;
+  width: 32vh;
   padding: 10px 20px;
   margin: 8px 0;
   height: 38px;
   box-sizing: border-box;
 
+
 }
-.card-body{
-padding-bottom: 20px;
+.container-1{
+padding: 60px;
+}
+
+.card-text-1{
+  position:absolute;
+  padding-top: 20%;
+  padding-right:12%;
+  width: 0px;
+  height: 1px;
+  max-width: 0;
+}
+.card-group{
+  background:#e3e3e3;
+  display: block;
+  justify-content: space-around;
+  /* box-sizing: border-box; */
+  margin-bottom: 6rem;
+  padding-left: 20px;
+  /* height:350px; */
+  
+}
+
+.card-img-card-img-overlay{
+  padding-top:1rem;
+  padding-bottom: 2rem;
+  background-color: #e3e3e3;
+  max-width: 20%;
 }
 label {
   font-weight: bolder;
   font-family: Open Sans;
-  font-size: 19px;
+  font-size: 21px;
   text-align: left;
 }
 /* .form-group {
