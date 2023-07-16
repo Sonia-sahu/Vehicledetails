@@ -40,7 +40,7 @@
   padding: 60px;
 }
 .title {
-  top: 231px;
+  /* top: 231px; */
   left: 100px;
   text-align: left;
   font: normal normal bold 45px/61px Open Sans;
@@ -75,7 +75,7 @@ p {
 }
 
 .heading {
-  top: 1042px;
+  /* top: 1042px; */
   left: 100px;
   text-align: left;
   font: normal normal bold 45px/61px Open Sans;
@@ -119,6 +119,7 @@ p {
     width: 100%;
     display: block;
     margin-bottom: 25px;
+    
   }
 }
 .column8 {
@@ -170,13 +171,13 @@ p {
   letter-spacing: 0px;
   font-weight: bold;
   color: #000000;
-  padding-left: 60px;
-  margin-top: 60px;
+  padding: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
 input[type="text"] {
-  width: 32vh;
+  width: 30vh;
   padding: 10px 20px;
   margin: 8px 0;
   height: 38px;
@@ -184,7 +185,7 @@ input[type="text"] {
 
 }
 input[type="time"] {
-  width: 32vh;
+  width: 30vh;
   padding: 10px 20px;
   margin: 8px 0;
   height: 38px;
@@ -192,7 +193,7 @@ input[type="time"] {
 
 }
 input[type="date"] {
-  width: 32vh;
+  width: 30vh;
   padding: 10px 20px;
   margin: 8px 0;
   height: 38px;
